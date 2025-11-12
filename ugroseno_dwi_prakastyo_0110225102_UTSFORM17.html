@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Form Upload Foto Mesjid</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="frame">
+		<div class="title">Form Upload Foto Mesjid</div>
+
+		<form id="uploadForm">
+			<div class="form-row">
+				<label for="nama">Nama Mesjid</label>
+				<div class="control">
+					<select id="nama" name="nama">
+						<option>Mesjid NF</option>
+						<option>Mesjid Al-Hikmah</option>
+						<option>Mesjid Baiturrahman</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<label for="judul">Judul Foto</label>
+				<div class="control">
+					<input id="judul" name="judul" type="text" placeholder="Masukkan judul foto" />
+				</div>
+			</div>
+
+			<div class="form-row">
+				<label for="keterangan">Keterangan Foto</label>
+				<div class="control">
+					<textarea id="keterangan" name="keterangan" placeholder="Keterangan singkat tentang foto"></textarea>
+				</div>
+			</div>
+
+      <div class="form-row">
+        <label>&nbsp;</label>
+        <div class="control">
+          <label class="upload-btn" for="file">Upload Foto</label>
+          <input id="file" name="file" type="file" style="display:none" accept="image/*" />
+        </div>
+      </div>
+    </form>		<div class="divider"></div>
+
+		<div class="previews">
+			<div class="preview">
+				<img src="https://via.placeholder.com/180x140/ddd/999?text=Tampak+Depan" alt="Tampak Depan Mesjid" class="imgbox" />
+				<div class="preview-text">
+					<h3>Tampak Depan</h3>
+					<div class="placeholder-lines">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sapien et arcu condimentum
+						varius. Nulla facilisi. Mauris ac ligula eget urna tempor fermentum. Sed ut dui sit amet urna
+						posuere vulputate. Vivamus sed libero sit amet arcu sollicitudin luctus.
+					</div>
+				</div>
+			</div>
+
+			<div class="preview">
+				<img src="https://via.placeholder.com/180x140/ddd/999?text=Mimbar+Mesjid" alt="Mimbar Mesjid" class="imgbox" />
+				<div class="preview-text">
+					<h3>Mimbar Mesjid</h3>
+					<div class="placeholder-lines">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sapien et arcu condimentum
+						varius. Nulla facilisi. Mauris ac ligula eget urna tempor fermentum. Sed ut dui sit amet urna
+						posuere vulputate. Vivamus sed libero sit amet arcu sollicitudin luctus.
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+</body>
+</html>
